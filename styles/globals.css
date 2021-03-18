@@ -1,0 +1,213 @@
+html,
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  width: 100vw !important;
+  
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  src: url(Quicksand_400_normal.eot); /* http://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18A.eot */
+  src: local("☺"),
+    url(Quicksand_400_normal.eot?#iefix) format("embedded-opentype"),
+    /* http://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18A.eot */
+      url(Quicksand_400_normal.woff2) format("woff2"),
+    /* http://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18Q.woff2 */
+      url(Quicksand_400_normal.woff) format("woff"),
+    /* http://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18I.woff */
+      url(Quicksand_400_normal.ttf) format("truetype"),
+    /* http://fonts.gstatic.com/s/quicksand/v21/6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18G0xR41.ttf */
+      url(Quicksand_400_normal.svg#Quicksand_400_normal) format("svg"); /* http://fonts.gstatic.com/l/font?kit=6xK-dSZaM9iE8KbpRA_LJ3z8mH9BOJvgkP8o18M&skey=c01f11fa5439d932&v=v21#Quicksand */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+#about-image-box {
+  position: relative;
+  box-shadow: inset 120px 0 60px 0px #fff;
+}
+
+#footer-link-box >ul:nth-child(1){
+  margin-top: 0px;
+}
+
+#about-title {
+  font-size: 48px;
+}
+.project-cards {
+  position: relative;
+  width: 100%;
+  background: linear-gradient(145deg, #dadada, #ffffff);
+  box-shadow: 24px 24px 48px #cecece, -24px -24px 48px #ffffff;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.project-cards:after {
+  content: "Click box to read more";
+  color:white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0px;
+  line-height: 50px;
+  width: 100%;
+  opacity: 0;
+  background: rgb(178, 196, 158);
+  transition: all 1s;
+}
+.project-cards:hover:after {
+  opacity: 1;
+  height: 50px;
+}
+.caption{
+  font-size: 48px;
+}
+.caption-footer{
+  font-size: 48px;
+}
+.project-cards:nth-child(even) {
+  border-left: 1px solid rgba(0, 128, 0, 0.096);
+}
+.project-card-title {
+  font-weight: bold;
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 10px;
+}
+.project-card-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  width: 50%;
+  height: 2px;
+  background: #dd3e54; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6be585,
+    #dd3e54
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6be585,
+    #dd3e54
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#projects-section {
+  background: #f2f2f2a3;
+}
+
+#campaign-feature-container {
+  flex-direction: row;
+}
+#campaign-feature-card {
+  flex-direction: row;
+}
+#campaign-feature-card-title {
+  text-align: left;
+}
+* {
+  box-sizing: border-box;
+}
+
+.qfont {
+  font-family: "Quicksand", sans-serif;
+}
+*:focus {
+  outline: none;
+}
+
+.afont {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.active {
+  /* color: yellowgreen; */
+  font-weight: bold;
+}
+a.link {
+  transition: all 0.4s ease;
+}
+a.link:hover {
+  background: rgba(0, 0, 0, 0.076);
+  color: #38a169;
+}
+a.link-md {
+  transition: all 0.3s ease;
+}
+a.link-md:hover {
+  color: #38a169 !important;
+}
+
+.navbar a:not(.active) {
+  color: grey;
+}
+
+@media screen and (max-width: 914px) {
+  #campaign-feature-card {
+    flex-direction: column;
+  }
+  #campaign-feature-card-title {
+    text-align: center;
+  }
+}
+/* @media screen and (max-width: 1100px){
+  #project-cards{
+    width:48%;
+    margin: 10px 0
+  }
+}
+@media screen and (max-width: 767px){
+  #project-cards{
+    width:100%;
+    margin: 10px 0
+  }
+} */
+
+@media screen and (max-width: 600px) {
+  #campaign-feature-container {
+    flex-direction: column;
+  }
+  #campaign-feature-card {
+    flex-direction: row;
+  }
+  #campaign-feature-card-title {
+    text-align: left;
+  }
+  #about-title {
+    font-size: 30px;
+    justify-content: center;
+  }
+  .caption{
+    font-size: 24px !important;
+  }
+  .caption-footer{
+    font-size: 36px !important;
+  }
+}
+
+@media screen and (max-width: 400px){
+  #about-page-header{
+    display:block
+  }
+  #footer-link-box{
+    flex-direction: column-reverse;
+  }
+  #footer-link-box >ul{
+    width: 100%;
+  }
+  #footer-link-box >ul:nth-child(1){
+    margin-top: 20px;
+    width: 100%;
+  }
+}
