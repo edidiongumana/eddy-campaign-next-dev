@@ -109,7 +109,7 @@ export default function Events() {
                   <FaCalendarCheck />
                 </Box>
                 <Text px={1} as="small" color="red.500" fontWeight="bold">
-                  18<sup>th</sup> March
+                  12<sup>th</sup> March
                 </Text>
               </Flex>
             </Box>
@@ -211,7 +211,7 @@ export default function Events() {
                     <FaCalendarWeek />
                   </Box>
                   <Text px={1} as="small" fontWeight="bold">
-                    12<sup>th</sup> March
+                    21<sup>st</sup> April
                   </Text>
                 </Flex>
               </Box>
@@ -244,7 +244,7 @@ export default function Events() {
                     <FaCalendarWeek />
                   </Box>
                   <Text px={1} as="small" fontWeight="bold">
-                    18<sup>th</sup> March
+                    2<sup>nd</sup> April
                   </Text>
                 </Flex>
               </Box>
@@ -276,7 +276,7 @@ export default function Events() {
                     <FaCalendarWeek />
                   </Box>
                   <Text px={1} as="small" fontWeight="bold">
-                    18<sup>th</sup> March
+                    7<sup>th</sup> April
                   </Text>
                 </Flex>
               </Box>
@@ -319,7 +319,7 @@ export default function Events() {
                   <FaCalendarWeek />
                 </Box>
                 <Text px={1} as="small" color="red.500" fontWeight="bold">
-                  18<sup>th</sup> March
+                  21<sup>st</sup> April
                 </Text>
               </Flex>
             </Box>

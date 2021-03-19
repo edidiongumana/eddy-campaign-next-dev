@@ -136,8 +136,8 @@ export default function About() {
                 <ListIcon color='green.500'>
             <FaBullseye/>
                 </ListIcon>
-                First financial secretary of NAOAS (UNICAL
-        CHAPTER). 
+                First financial secretary of  National Association of Obot Akara Students (NAOAS) UNICAL
+        CHAPTER. 
                 </ListItem>
                 <ListItem>
 

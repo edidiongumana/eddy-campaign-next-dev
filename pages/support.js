@@ -50,75 +50,139 @@ These include the following:</Text>
   <div className={css.list}>
     <div className={css.num}>
       <h3> 
-      Nka Iban Ikot Obio Awan
+      Nka Iban Ikot Obio Awan : " We   the   women   of   Ikot   Obio   Awan
+         standstrongly behind Nsikak Umoren. There’s no one more suited to represent us than him." 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
       
-Nigeria Automobile Technician (NATA)
+Nigeria Automobile Technician (NATA): "Whenever we thinkleadership, Nsikak Umoren comes to mind. 2023 Ahead! Ahead!!"
+
+      </h3>
+     
+
+    </div>
+    <div className={css.num}>
+      <h3>
+      Nka Iban Ikot Ikpe: "Nsikak   Umoren   is   the   man   who   understands  the people very well. 
+      We are in full support of this mandate."
 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-      Nka Iban Ikot Ikpe
+      Nka Ekpeme women association (AKEWA): "Come 2023, one man willtake the Federal House of Representatives.
+       His name is Nsikak Umoren."
 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-      Nka Ekpeme women association (AKEWA)
+      Nka Iban Ikot Okure: "Nsikak Umoren has what it takes to represent us at the Federal House of Rep."
 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-      Nka Iban Ikot Okure
+      Etip Ediene Women Organization (EEWO): "A visionary leader is one who has a vision and knows 
+      how to go about it to achieve his visions. Nsikak is a visionary leader."
 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-      Etip Ediene Women Organization (EEWO)
+      Nka Iban Ikot Obong Edong: "Carry go! We dey behind you. Come 2023 na you we dey vote for."
+
+      </h3>
+
+    </div>
+    <div className={css.num}>
+      <h3>
+Presbyterial Young People Association of Nigeria (PYPAN): "Nsikak is a leader to emulate. He has consistently shown
+ his leadership qualities over the years and by this we know we have the right candidate."
 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-      Nka Iban Ikot Obong Edong
-
+      Men Christian Association (MCA) : "We stand in full support of Nsikak’s bid in the Federal House of Representative."
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-Presbyterial Young People Association of Nigeria (PYPAN)
-
+Women Guide Association (WCA): "We throw our allegiance to Nsikak Umoren."
+: 
       </h3>
     </div>
     <div className={css.num}>
       <h3>
-      Men Christian Association (MCA)
+Ikot Udota Youth & Sports Association: "Nsikak Umoren is the man of the people. We support this mandate."
       </h3>
     </div>
+    
     <div className={css.num}>
       <h3>
-Women Guide Association
-
-      </h3>
-    </div>
-    <div className={css.num}>
-      <h3>
-Ikot Udota Youth & Sports Association
-
+      
+National association of computer science student (NACOSS): "You have our full support Mr. Umoren, let’s go there."
       </h3>
     </div>
     <div className={css.num}>
       <h3>
       
-National association of computer science student (NACOSS)
+Ata Essien for the Nation: "Who else to represent us than a man who has shown consistency and has a great track record."
       </h3>
     </div>
+    <div className={css.num}>
+      <h3>
+      
+  One Mind Association of Nigeria:  "We come together with one mind to say Nsikak is the man we want."
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+The Voice of the People:  "We don’t just want a leader, but a leader who will serve while leading. Nsikak Umoren is that leader. "
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+ Nto Obio Ikang for Nsikak Group:  "We stand behind our very own. Come 2023 Nsikak will be a Federal House Member."
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+Cordial Express Association:  "For Federal House of Representative, Nsikak Umoren is our candidate."
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+Good Makers Association Obot Akara: "There is no body who will represent us better at the Federal House better than Nsikak Umoren."
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+ Obot Akara Youth Congress (OYC):  "The youth of Obot Akara are solidly behind you. Go and win for us."
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+Ikot Ekpene Federal Constituency Students Assembly (IFCONSA):  "Nsikak for Federal House of representative. We are with you on this journey."
+      </h3>
+    </div>
+    <div className={css.num}>
+      <h3>
+      
+ Ikot Abia One Voice Group:  "In one loud voice we pledge our support for you. Nsikak Umoren for Federal House of Reprsentative."
+      </h3>
+    </div>
+    
+
   </div>
 </div>
 <h5 className={css.message}>Hover Over List Items</h5>

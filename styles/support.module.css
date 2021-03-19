@@ -200,6 +200,90 @@ html body {
   opacity: 0.05;
   transition: 0.25s;
 }
+
+.container .list .num:nth-child(13):before {
+  content: '13';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+
+.container .list .num:nth-child(14):before {
+  content: '14';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+
+.container .list .num:nth-child(15):before {
+  content: '15';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+.container .list .num:nth-child(16):before {
+  content: '16';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+.container .list .num:nth-child(17):before {
+  content: '17';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+.container .list .num:nth-child(18):before {
+  content: '18';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+.container .list .num:nth-child(19):before {
+  content: '19';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+.container .list .num:nth-child(20):before {
+  content: '20';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
+.container .list .num:nth-child(21):before {
+  content: '21';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #000;
+  width: fit-content;
+  opacity: 0.05;
+  transition: 0.25s;
+}
 .container .list .num h3 {
   position: relative;
   left: -1.5rem;
